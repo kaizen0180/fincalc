@@ -130,7 +130,7 @@ export default function HomePage() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link href="#interes-compuesto">
+              <Link href="/compound-interest-calculator">
                 <TrendingUp data-icon="inline-start" />
                 Probar interés compuesto
               </Link>
