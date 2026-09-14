@@ -5,8 +5,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Single toggle for design behavior. Set to true to follow system dark mode, false to keep the brand color fixed. */
-  --surface-card: #ffc0cb;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -44,7 +42,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-card: var(--surface-card);
+  --color-card: var(--card);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
@@ -87,7 +85,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --surface-card: #ffc0cb;
   }
 }
 
